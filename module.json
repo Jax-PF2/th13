@@ -18,18 +18,6 @@
 	"authors": [{
 		"name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)"
 	}],
-	"flags": {
-		"pf2e-thriae": {
-			"pf2e-homebrew": {
-				"featTraits": {
-					"thriae": "Thriae"
-				},
-				"creatureTraits": {
-					"thriae": "thriae"
-				}
-							}
-		}
-	},
 	"relationships": {
 		"systems": [{
 			"id": "pf2e",
