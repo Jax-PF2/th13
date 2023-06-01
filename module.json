@@ -4,7 +4,7 @@
   "version": "0.01",
   "packs": [
         {
-      "label": "Jam and Jax NPC Thriae Ancestry Feats",
+      "label": "Jam and Jax Beyond Ancestry: Thriae Feats",
       "type": "Item",
       "name": "thriae-items",
       "path": "/packs/thriae-items.db",
