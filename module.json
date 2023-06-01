@@ -1,42 +1,50 @@
 {
-  "title": "Jam and Jax's Beyond Ancestries: Thriae",
-  "description": "Unleash the enigmatic and beautiful Thriae ancestry in Pathfinder 2e.",
-  "version": "0.01",
-  "packs": [
-        {
-      "label": "Jam and Jax Beyond Ancestry: Thriae Feats",
-      "type": "Item",
-      "name": "thriae-items",
-      "path": "/packs/thriae-items.db",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    }
-  ],
-  "url": "https://github.com/Jax-PF2/th13",
-  "manifest": "https://raw.githubusercontent.com/Jax-PF2/th13/master/module.json",
-  "download": "https://github.com/Jax-PF2/th13/archive/refs/heads/main.zip",
-  "id": "jam-and-jax-thriae-ancestry",
-  "authors": [
-    {
-      "name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
-      "flags": {}
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "4.10.1",
-          "verified": "4.10.1"
-        }
-      }
-    ]
-  },
-  "compatibility": {
-    "minimum": "10.291",
-    "verified": "10.291"
-  }
+	"title": "Jam and Jax's Beyond Ancestries: Thriae",
+	"description": "Unleash the enigmatic and beautiful Thriae ancestry in Pathfinder 2e.",
+	"version": "0.01",
+	"packs": [{
+		"label": "Jam and Jax Beyond Ancestry: Thriae Feats",
+		"type": "Item",
+		"name": "thriae-items",
+		"path": "/packs/thriae-items.db",
+		"system": "pf2e",
+		"private": false,
+		"flags": {}
+	}],
+	"url": "https://github.com/Jax-PF2/th13",
+	"manifest": "https://raw.githubusercontent.com/Jax-PF2/th13/master/module.json",
+	"download": "https://github.com/Jax-PF2/th13/archive/refs/heads/main.zip",
+	"id": "jam-and-jax-thriae-ancestry",
+	"authors": [{
+		"name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)"
+	}],
+	"flags": {
+		"pf2e-thriae": {
+			"pf2e-homebrew": {
+				"featTraits": {
+					"thriae": "Thriae"
+				},
+				"creatureTraits": {
+					"thriae": "thriae"
+				}
+				"creatureLanguages": {
+					"thriae": "thriae"
+				}
+			}
+		}
+	},
+	"relationships": {
+		"systems": [{
+			"id": "pf2e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "4.10.1",
+				"verified": "4.10.1"
+			}
+		}]
+	},
+	"compatibility": {
+		"minimum": "10.291",
+		"verified": "10.291"
+	}
 }
