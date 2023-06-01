@@ -1,3 +1,4 @@
 # th13  
-Thriae Change Log  
+Beyond Ancestries: Thriae  
+Change Log    
 v1.0 6/x/2023: Release Version  
