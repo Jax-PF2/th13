@@ -23,7 +23,7 @@
     {
       "name": "thriae-items",
       "label": "Jam and Jax's Thriae Ancestry",
-      "path": "packs/thriae-items",
+      "path": "packs/thriae-items.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
