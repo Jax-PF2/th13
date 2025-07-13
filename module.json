@@ -6,6 +6,7 @@
   "version": "1.2",
   "compatibleCoreVersion": "13.346",
   "minimumCoreVersion": "13.346",
+  "system": "pf2e",
   "packs": [
     {
       "label": "Jam and Jax's Thriae Ancestry",
@@ -16,10 +17,6 @@
       "package": "pf2e-thriae",
       "private": false
     }
-  ],
-
-  "system": [
-    "pf2e"
   ],
   "url": "https://github.com/Jax-PF2/th13",
   "manifest": "https://raw.githubusercontent.com/Jax-PF2/th13/master/module.json",
