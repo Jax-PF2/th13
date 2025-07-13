@@ -1,42 +1,39 @@
 {
+  "name": "pf2e-thriae",
   "title": "Jam and Jax's Beyond Ancestries: Thriae",
   "description": "Unleash the enigmatic and beautiful Thriae ancestry in Pathfinder 2e.",
-  "version": "1.3",
+  "author": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
+  "version": "1.2",
+  "compatibleCoreVersion": "10.291",
+  "minimumCoreVersion": "10.291",
   "packs": [
     {
-      "name": "thriae-items",
       "label": "Jam and Jax's Thriae Ancestry",
-      "path": "./packs/thriae-items.db",
       "type": "Item",
-      "private": false,
+      "name": "thriae-items",
+      "path": "./packs/thriae-items.db",
       "system": "pf2e",
-      "flags": {}
+      "package": "pf2e-thriae",
+      "private": false
     }
+  ],
+  "flags": {
+    "pf2e-thriae": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "thriae": "Thriae"
+        },
+        "creatureTraits": {
+          "Thriae": "Thriae"
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
   ],
   "url": "https://github.com/Jax-PF2/th13",
   "manifest": "https://raw.githubusercontent.com/Jax-PF2/th13/master/module.json",
-  "download": "ttps://github.com/Jax-PF2/th13/archive/refs/heads/main.zip",
-  "id": "pf2e-thriae",
-  "authors": [
-    {
-      "name": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
-      "flags": {}
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "7.2.3",
-          "verified": "7.2.3"
-        }
-      }
-    ]
-  },
-  "compatibility": {
-    "minimum": "13.346",
-    "verified": "13.346"
-  }
+  "download": "https://github.com/Jax-PF2/th13/archive/refs/heads/main.zip",
+  "minimumSystemVersion": "4.10.1"
 }
