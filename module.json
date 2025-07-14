@@ -4,8 +4,8 @@
   "description": "Unleash the enigmatic and beautiful Thriae ancestry in Pathfinder 2e.",
   "author": "Jamzilla (Jamie Trollop) and Jax (Paul Steen)",
   "version": "1.2",
-  "compatibleCoreVersion": "10.291",
-  "minimumCoreVersion": "10.291",
+  "compatibleCoreVersion": "13",
+  "minimumCoreVersion": "13",
   "packs": [
       {
       "label": "Jam and Jax's Thriae Ancestry",
@@ -35,5 +35,5 @@
  "url": "https://github.com/Jax-PF2/th13",
 	"manifest": "https://raw.githubusercontent.com/Jax-PF2/th13/master/module.json",
 	"download": "https://github.com/Jax-PF2/th13/archive/refs/heads/main.zip",
-  "minimumSystemVersion": "4.10.1"
+  "minimumSystemVersion": "7"
 }
