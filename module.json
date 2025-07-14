@@ -17,18 +17,7 @@
       "private": false
     }
   ],
-  "flags": {
-    "pf2e-thriae": {
-      "pf2e-homebrew": {
-        "featTraits": {
-          "thriae": "Thriae"
-        },
-        "creatureTraits": {
-          "Thriae": "Thriae"
-        }
-      }
-    }
-  },
+
   "system": [
     "pf2e"
   ],
